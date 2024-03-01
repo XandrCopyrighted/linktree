@@ -3,9 +3,16 @@
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
-    --accentColor: #FFF;
+    --accentColor: #fff;
     --font: 'Freoka', sans-serif;
-    --delay: .3s;
+    --delay: .3s
+}
+
+#notice {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px
 }
 
 #profilePicture, #profilePicture img {
@@ -15,7 +22,7 @@
     display: block;
     margin: 40px auto 20px;
     border-radius: 50%;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent
 }
 
 #userName {
@@ -27,14 +34,14 @@
     font-family: var(--font);
     width: 100%;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none
 }
 
 #links {
     max-width: 675px;
     width: auto;
     display: block;
-    margin: 27px auto;
+    margin: 27px auto
 }
 
 .link {
@@ -52,17 +59,17 @@
     padding: 10px; /* 17px */
     text-decoration: none;
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent
 }
 
 @media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
-        color: var(--bgColor);
+        color: var(--bgColor)
     }
 }
 
 .link:active {
     background-color: var(--accentColor);
-    color: var(--bgColor);
+    color: var(--bgColor)
 }
